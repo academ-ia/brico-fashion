@@ -1,12 +1,7 @@
 {
-  "build": {
-    "env": {
-      "NODE_ENV": "production"
-    }
-  },
   "functions": {
     "api/**/*.js": {
-      "runtime": "nodejs24.x"
+      "runtime": "nodejs20.x"
     }
   }
 }
